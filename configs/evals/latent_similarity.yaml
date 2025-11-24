@@ -1,0 +1,9 @@
+nodes: 8
+tasks_per_node: 8
+tag: similarity
+eval_name: latent_similarity
+
+eval_log: /path/to/logs/ac_wm/pretrain_vit16l_ac
+logging:
+  folder: logs/eval/similarity
+  write_tag: eval_similarity
